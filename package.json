@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mmoharem/travel-site2.git"
+        "url": "git+https://github.com/mmoharem/kroki-v2.git"
     },
     "author": "Code-Design",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/mmoharem/travel-site2/issues"
+        "url": "https://github.com/mmoharem/kroki-v2/issues"
     },
-    "homepage": "https://github.com/mmoharem/travel-site2#readme",
+    "homepage": "https://github.com/mmoharem/kroki-v2#readme",
     "dependencies": {
         "gulp": "^3.9.1",
         "jquery": "^3.3.1",

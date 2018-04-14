@@ -1,0 +1,25 @@
+// .container {
+//     // max-width: 192rem;
+// }
+.contact {
+    background-image: url("../img/cont-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: indigo;
+    background-image: url("../img/foot-back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40vh;
+    &__hr {
+        background-color: rgba(128, 128, 128, 0.493);
+        height: .3rem;
+    }
+}

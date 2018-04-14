@@ -1,33 +1,9 @@
-
-$bp-large: 69.4em;
-
-
-
-* {
-    margin: 0;
-    padding: 5rem;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    @media only screen and (max-width: $bp-large) {
-        font-size: 50%;
-    }
-}
-
-body {
-    font-family: 'Open-Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    background-color: gray;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-}
+@import "base/_base";
+@import "abstracts/_variables";
+@import "layout/_header";
+@import "layout/_layout";
+@import "layout/_navigation";
+@import "layout/_services";
+@import "layout/_portofolio";
+@import "layout/_contact";
+@import "layout/_contright";
