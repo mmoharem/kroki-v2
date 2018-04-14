@@ -1,8 +1,9 @@
-// .container {
-//     // max-width: 192rem;
-// }
+/*  .container {
+     max-width: 192rem;
+ } 
+ */
 .contact {
-    background-image: url("../img/cont-back.png");
+    background-image: url("../../assets/img/cont-back.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -13,7 +14,7 @@
 
 .footer {
     background-color: indigo;
-    background-image: url("../img/foot-back2.jpg");
+    background-image: url("../../assets/img/foot-back2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 906 1121.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e8e6e6;
+      }
+
+      .cls-2 {
+        fill: #cecece;
+      }
+    </style>
+  </defs>
+  <title>connect1</title>
+  <rect class="cls-1" width="906" height="33.98"/>
+  <g>
+    <polygon class="cls-1" points="423.16 1121.08 457 1121.08 457 738.98 423 738.98 423.16 1121.08"/>
+    <path class="cls-2" d="M698,168V62.37H208V168L417.33,405.76V563.49l26.33,0c46.56,0,82.61,37.92,82.61,84.48a84.51,84.51,0,0,1-167.64,15.26H322.36A119.75,119.75,0,1,0,480.88,533.74v-128Z"/>
+  </g>
+</svg>
