@@ -1,0 +1,41 @@
+
+
+.block1 {
+    background-color: rgba(255,255,255,.4);
+    /* opacity: .6; */
+    border-radius: 1.5rem;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-left: 4rem;
+
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        position: relative;
+        top: -6.5rem;
+        width: 13rem;
+        height: 13rem;
+        margin-bottom: -6.5rem;
+    }
+
+    h3 {
+        display: block;
+        /* margin: -40px; */
+        font-size: 2rem;
+    }
+
+    &__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .paragraph {
+        text-align: center;
+        line-height: 1.8;
+        margin: 1.5rem 0;
+        font-size: 1.5rem;
+    }
+}

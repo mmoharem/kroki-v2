@@ -59,7 +59,9 @@
 
 .porto__wrapper-2 :hover,
      .porto :active {
-        border-inline-end: 2rem solid #1f65c1;
+        -webkit-border-end: 2rem solid #1f65c1;
+           -moz-border-end: 2rem solid #1f65c1;
+                border-inline-end: 2rem solid #1f65c1;
     }
 
 .porto__wrapper-3 {
