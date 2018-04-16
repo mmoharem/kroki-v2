@@ -61,7 +61,11 @@ body {
     
 }
 /* @import "components/_typography"; */
+<<<<<<< HEAD
 .block1 {
+=======
+.block {
+>>>>>>> a1e052c61dd5d0337eecf0f5093187fbbc4d7cdb
     background-color: rgba(255,255,255,.4);
     /* opacity: .6; */
     border-radius: 1.5rem;
@@ -77,26 +81,34 @@ body {
     flex-direction: column;
     align-items: center;
 }
+<<<<<<< HEAD
 .block1--visible {
         opacity: 1;
         z-index: 10;
     }
 .block1 img {
+=======
+.block--visible {
+        opacity: 1;
+        z-index: 10;
+    }
+.block img {
+>>>>>>> a1e052c61dd5d0337eecf0f5093187fbbc4d7cdb
         position: relative;
         top: -6.5rem;
         width: 13rem;
         height: 13rem;
         margin-bottom: -6.5rem;
     }
-.block1 h3 {
+.block h3 {
         display: block;
         /* margin: -40px; */
         font-size: 2rem;
     }
-.block1__subtitle {
+.block__subtitle {
         font-size: 1.5rem;
     }
-.block1 .paragraph {
+.block .paragraph {
         text-align: center;
         line-height: 1.8;
         margin: 1.5rem 0;

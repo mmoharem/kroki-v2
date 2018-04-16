@@ -7,10 +7,6 @@
         "dev": "webpack --mode development",
         "prod": "webpack --mode production"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mmoharem/kroki-v2.git"
-    },
     "author": "Code-Design",
     "license": "ISC",
     "bugs": {
@@ -34,7 +30,6 @@
         "gulp-rename": "^1.2.2",
         "gulp-svg-sprite": "^1.4.0",
         "gulp-watch": "^5.0.0",
-        "gulp-webserver": "^0.9.1",
         "jquery-smooth-scroll": "^2.2.0",
         "postcss-calc": "^6.0.1",
         "postcss-hexrgba": "^1.0.0",
