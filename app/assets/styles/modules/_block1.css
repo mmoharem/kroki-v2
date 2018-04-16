@@ -1,7 +1,8 @@
 
 
 .block {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0,0,0,.4);
+    border: 3px solid red;
     /* opacity: .6; */
     border-radius: 1.5rem;
     width: 40%;
@@ -29,21 +30,26 @@
         margin-bottom: -6.5rem;
     }
 
-    h3 {
-        display: block;
-        /* margin: -40px; */
-        font-size: 2rem;
+    &__title {
+        display: inline-block;
+        color: #1760B4;
+        font-size: 2.6rem;
     }
 
     &__subtitle {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        color: grey;
+        // line-height: 1.8;
+        font-weight: 200;
     }
 
     .paragraph {
-        text-align: center;
-        line-height: 1.8;
+        width: 90%;
+        // text-align: center;
+        line-height: 1.5;
         margin: 1.5rem 0;
         font-size: 1.5rem;
         color: #fff;
+        font-weight: 200;
     }
 }

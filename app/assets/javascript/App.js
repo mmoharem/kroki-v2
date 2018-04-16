@@ -1,8 +1,8 @@
 import $ from 'jquery';
 import Services from './modules/Services';
+import StickyNavigation from './modules/StickyNav';
 
-<<<<<<< HEAD
-=======
-alert('abc');
->>>>>>> a1e052c61dd5d0337eecf0f5093187fbbc4d7cdb
+// alert('abc');
 var services = new Services();
+
+var stickynav = new StickyNavigation();

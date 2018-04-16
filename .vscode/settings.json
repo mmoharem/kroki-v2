@@ -1,7 +1,8 @@
 {
 
     "files.associations": {
-    "*.css": "postcss"
+    
+    "*.css": "sass"
   }
 
 }
