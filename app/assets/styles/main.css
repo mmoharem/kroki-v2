@@ -1,8 +1,8 @@
 
-@import "abstracts/_mixins";
+/* @import "abstracts/_mixins"; */
 @import "abstracts/_variables";
 @import "base/_base";
-@import "components/_typography";
+/* @import "components/_typography"; */
 @import "modules/_block1";
 @import "layout/_header";
 @import "layout/_layout";

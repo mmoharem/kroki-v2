@@ -7,7 +7,7 @@ var pcssNested = require('postcss-nested');
 var mixins = require('postcss-mixins');
 var calc = require('postcss-calc');
 var hexrgba = require('postcss-hexrgba');
-var autoprefixer = require('autoprefixer');
+// var autoprefixer = require('autoprefixer');
 
 
 
@@ -23,8 +23,8 @@ gulp.task('css', function() {
         simplVars,
         calc,
         pcssNested,
-        hexrgba,
-        autoprefixer
+        hexrgba
+        // autoprefixer
     ];
     return gulp.src('./app/assets/styles/**/*.css')
         .pipe(postcss(processors))

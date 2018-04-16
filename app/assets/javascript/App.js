@@ -1,4 +1,4 @@
 import $ from 'jquery';
-// var FirstModule = require('./modules/FirstModule');
+import Services from './modules/Services';
 
-alert('123');
+var services = new Services();

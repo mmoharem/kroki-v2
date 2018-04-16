@@ -69,7 +69,12 @@ $bp-small: 37.5em;  /*/ 600px*/
             display: flex;
             align-items: center;
             justify-content: flex-end;
+
+            
         }
+
+       
+
         &--text {
             margin-right: 1rem;
         }
@@ -84,7 +89,20 @@ $bp-small: 37.5em;  /*/ 600px*/
                 height: 4.5rem;
                 margin-top: .2rem;
             }
+
+            /* &::before{
+                content: " ";
+                width: 100%;
+
+                &:hover {
+                transform: scale(1.9);
+                } */
+             &:hover {
+            transform: scale(1.2);
         }
+
+        }
+        
         &--line-box {
             width: 6.5rem;
             display: flex;
@@ -247,8 +265,3 @@ $bp-small: 37.5em;  /*/ 600px*/
     }
 }
 
-/* // img {
-//     margin: 25% auto;
-//     width: 50%;
-//     height: 50%;
-// } */
