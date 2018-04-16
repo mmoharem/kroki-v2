@@ -1,13 +1,12 @@
-var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-
-var pcssImport = require('postcss-import');
-var simplVars = require('postcss-simple-vars');
-var pcssNested = require('postcss-nested');
-var mixins = require('postcss-mixins');
-var calc = require('postcss-calc');
-var hexrgba = require('postcss-hexrgba');
-var autoprefixer = require('autoprefixer');
+var gulp = require('gulp'),
+    postcss = require('gulp-postcss'),
+    pcssImport = require('postcss-import'),
+    simplVars = require('postcss-simple-vars'),
+    pcssNested = require('postcss-nested'),
+    mixins = require('postcss-mixins'),
+    calc = require('postcss-calc'),
+    hexrgba = require('postcss-hexrgba');
+// var autoprefixer = require('autoprefixer');
 
 
 
@@ -15,7 +14,7 @@ var autoprefixer = require('autoprefixer');
 
 ////--------> CSS TASK....
 
-gulp.task('css', function() {
+gulp.task('styles', function() {
     var processors = [
 
         pcssImport,
@@ -23,14 +22,14 @@ gulp.task('css', function() {
         simplVars,
         calc,
         pcssNested,
-        hexrgba,
-        autoprefixer
+        hexrgba
+        // autoprefixer
     ];
-    return gulp.src('./app/assets/styles/**/*.css')
+    return gulp.src('./app/assets/styles/main.css')
         .pipe(postcss(processors))
         .on('error', function(errorInfo) { // add error handlind
-            console.log(errorInfo)
-            this.emit('end')
+            console.log(errorInfo.toString());
+            this.emit('end');
         })
         .pipe(gulp.dest('./app/temp/styles'));
 });

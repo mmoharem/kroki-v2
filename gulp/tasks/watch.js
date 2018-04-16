@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var watch = require('gulp-watch');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 
 
 
@@ -8,9 +8,8 @@ var browserSync = require('browser-sync');
 
 ////--------> WATCH TASK....
 
-
-
 gulp.task('watch', function() {
+
 
     //..browserSync..WATCH
     browserSync.init({
@@ -21,7 +20,7 @@ gulp.task('watch', function() {
 
     //..HTML..WATCH
     gulp.watch('./app/index.html', function() {
-        // gulp.start('html');
+        gulp.start('html');
         browserSync.reload();
     });
 
@@ -42,7 +41,7 @@ gulp.task('watch', function() {
 });
 
 
-gulp.task('cssInject', ['css'], function() {
+gulp.task('cssInject', ['styles'], function() {
     return gulp.src('./app/temp/styles/main.css')
         .pipe(browserSync.stream());
 });

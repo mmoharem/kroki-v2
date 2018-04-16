@@ -1,6 +1,6 @@
 
 
-.block1 {
+.block {
     background-color: rgba(255,255,255,.4);
     /* opacity: .6; */
     border-radius: 1.5rem;
@@ -9,11 +9,18 @@
     padding: 0 2rem;
     margin-left: 4rem;
 
-    align-self: flex-start;
+    opacity: 0;
+    z-index: -1;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &--visible {
+        opacity: 1;
+        z-index: 10;
+    }
+
     img {
         position: relative;
         top: -6.5rem;
@@ -37,5 +44,6 @@
         line-height: 1.8;
         margin: 1.5rem 0;
         font-size: 1.5rem;
+        color: #fff;
     }
 }
